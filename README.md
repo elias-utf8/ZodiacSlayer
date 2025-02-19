@@ -1,7 +1,7 @@
-<center>
-  
-  `Zodiac Slayer`
-  ![Logo](repo/logo.png)
+<div align="center">
 
-</center>
+  <h1><b>Zodiac Slayer`</b></h1>
+  
+  ![Logo](repo/logo.png)
+</div>
 
