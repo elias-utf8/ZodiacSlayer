@@ -4,8 +4,8 @@
   <h1><b>Zodiac Slayer</b></h1>
   
   <p>
-    Déchiffrement d'une image contenant un message chiffré avec les symboles 
-    du tueur du zodiaque. En développement.
+    Ce programme permet le déchiffrement du message du zodiaque Z-340 directement depuis une image 
+    contenant les symboles. Chaque symbole sera automatique isolé puis décodé.
   </p>
 
 </div>

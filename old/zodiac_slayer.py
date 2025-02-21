@@ -3,8 +3,9 @@ Zodiac Slayer - v1.0.0
 
 Auteurs : Ethan CLEMENT, Elias GAUTHIER
 
-Déchiffrement d'une image contenant un message chiffré avec les symboles 
-du tueur du zodiaque. Fait pour fonctionner avec https://www.dcode.fr/chiffre-tueur-zodiac 
+Déchiffrement automatique du message du zodiaque Z-340 depuis une image contenant 
+les symboles sur 17 lignes.
+
 """
 
 import os
