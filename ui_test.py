@@ -4,6 +4,7 @@ import numpy as np
 from PIL import Image
 import glob
 import os
+import shutil
 
 from symbol_matcher import SymbolMatcher
 from decoder import decode_zodiac_message
@@ -44,9 +45,7 @@ if uploaded_file is not None:
         image_np = np.array(pil_image)
         image_np = cv2.cvtColor(image_np, cv2.COLOR_RGB2BGR)
 
-        directory = glob.glob("symboles_extraits")
-        for f in directory:
-            os.remove(f)
+        shutil.rmtree('symboles_extraits')
 
         extract_symbols(image_np, output_folder="symboles_extraits")
 
@@ -66,20 +65,20 @@ if uploaded_file is not None:
                 counter = 0
                 for idx, symbol_file in enumerate(symbol_files):
                     col_idx = idx % 4
+                    counter=counter+1
                     with cols[col_idx]:
                         symbol_img = Image.open(symbol_file)
                         symbol_img = symbol_img.resize((30, 30))
                         st.image(symbol_img, use_container_width=True)
                         numero = get_symbol_number(symbol_file)
                         st.caption(f"{numero}")
-                        counter=+1
 
-                if numero < 306 or numero > 306:
-                    st.markdown(f"** Attention, certains symboles n'ont pas étés correctement extraits.\n\nSymboles extraits : `{counter}` Symbols attendus : 306")
-                else:
-                    st.markdown("**✅ | Symboles extraits**")
+                
 
-
+        if numero < 306 or numero > 306:
+            st.markdown(f"**Attention, certains symboles n'ont pas étés correctement extraits.**\n\nSymboles extraits : `{counter}`\nSymbols attendus : `306`")
+        else:
+            st.markdown("**✅ | Symboles extraits**")
         decrypted_text = "Message partiellement déchiffré : ...XYZ..."   
         st.text_area("Résultat", decrypted_text)
         st.download_button("Télécharger le texte", decrypted_text, file_name="dechiffrement.txt")
