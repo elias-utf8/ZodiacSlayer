@@ -41,6 +41,18 @@ def setup_page():
     #st.image("assets/logo.png", width=300)
     st.title("Zodiac Slayer - Z340")
 
+    st.markdown("""
+    <style>
+        .reportview-container {
+            margin-top: -2em;
+        }
+        #MainMenu {visibility: hidden;}
+        .stDeployButton {display:none;}
+        footer {visibility: hidden;}
+        #stDecoration {display:none;}
+    </style>
+    """, unsafe_allow_html=True)
+
 def display_instructions():
     st.markdown(
         """
