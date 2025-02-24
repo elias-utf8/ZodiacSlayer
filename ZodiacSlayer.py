@@ -42,7 +42,7 @@ def setup_page():
     st.title("Zodiac Slayer - Z340")
 
     st.markdown("""
-        <footer style="position: fixed; bottom: 0; width: 100%; background-color: #f5f5f5; padding: 10px; text-align: center;">
+        <footer style="position: fixed; bottom: 0; width: 100%; background-color: #0E1117; padding: 10px; text-align: center;">
             &copy; 2024 Uzinagaz productions
         </footer>
     """, unsafe_allow_html=True)
