@@ -53,5 +53,5 @@ streamlit run ZodiacSlayer.py
 
 ## Usage 
 > [!IMPORTANT]
-> Il est important de lire cette section, la détection des images n'est pas encore parfaite.
+> Il est important de lire cette section, la détection des images est sensible à la casse et il est expliqué comment intervenir manuellement.
 
