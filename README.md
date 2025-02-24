@@ -51,16 +51,26 @@ Pour lancer l'application :
 streamlit run ZodiacSlayer.py
 ```
 
-## Usage 
+## Problèmes rencontrés
 > [!IMPORTANT]
 > Il est important de lire cette section, la détection des images est sensible à la casse et il est expliqué comment intervenir manuellement.
 
 **Voici les directives à suivre pour s'assurer du bon fonctionnement de l'application :** 
 
 - Image ayant une **résolution correcte**, **génerée numériquement** (pas de symboles manuscrits)
+
 - Chaque symbole doit être clairement **séparé par des pixels blancs** pour permettre a l'algorithme de détection de bien isoler les symboles.
+
 - Rien d'autre ne doit figurer sur l'image que les symboles (pas de texte, de lignes, de points etc)
+
 - L'image doit bien etre composée de **17 colonnes, 18 ligne ou 17 colonnes, 20 lignes**.
 
+---
+### Exemples pouvant perturber la détection
+
+| ![s1](assests/sp_1.png)                                                               | ![s2](assests/sp_2.png)                                                       |
+|---------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| Symbole composé de 2 éléments, ici le point sera considéré comme un autre symbole     | Ici la délimitation entre les 2 symbole n'est pas correctement faite.         |
 
 
+Ces symboles 
