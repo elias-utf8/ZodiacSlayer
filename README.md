@@ -72,6 +72,8 @@ streamlit run ZodiacSlayer.py
 |---------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
 | Symbole composé de 2 éléments, ici le point sera considéré comme un autre symbole     | Ici la délimitation entre les 2 symbole n'est pas correctement faite.         |
 
-Corrections : 
+Corrections pouvant êtres apportés dans un éditeur d'image 
 
-
+| ![s1](assets/sp_1_c.png)                             | ![s2](assets/sp_2_c.png)                                  |
+|------------------------------------------------------|-----------------------------------------------------------|
+| Rattachement du point au symbole avec un pixel noir  | Ajout de pixels blanc pour bien marquer la délimitation   |
