@@ -7,8 +7,8 @@
     Ce programme permet le déchiffrement du message du zodiaque Z-340 directement depuis une image 
     contenant les symboles du zodiaques spécifique au Z-340.
   </p>
-  <h1>Aperçu</h1>
-  
+  <h2>Aperçu</h2>
+
 
 </div>
 
