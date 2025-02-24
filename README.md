@@ -2,8 +2,9 @@
 
 <div align="center">
 
-<img src="assets/logo.png" width="200" height="100" alt="Logo">
+<img src="assets/logo.png" width="200" height="200" alt="Logo">
   <h1><b>Zodiac Slayer</b></h1>
+
   ![Logo](assets/screenshot_1.png)
 
   <p>
