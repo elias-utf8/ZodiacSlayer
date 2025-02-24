@@ -68,9 +68,10 @@ streamlit run ZodiacSlayer.py
 ---
 ### Exemples pouvant perturber la détection
 
-| ![s1](assests/sp_1.png)                                                               | ![s2](assests/sp_2.png)                                                       |
+| ![s1](assets/sp_1.png)                                                               | ![s2](assets/sp_2.png)                                                       |
 |---------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
 | Symbole composé de 2 éléments, ici le point sera considéré comme un autre symbole     | Ici la délimitation entre les 2 symbole n'est pas correctement faite.         |
 
+Corrections : 
 
-Ces symboles 
+
