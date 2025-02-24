@@ -28,7 +28,6 @@ de 17 colonnes, 18 lignes. Il suffit de charger l'image sur l'interface et de su
 1. **Téléchargement**
    - Visitez [python.org](https://www.python.org/downloads/)
    - Cliquez sur "Download Python X.X.X" (dernière version)
-
 2. **Installation**
    - Lancez l'installateur téléchargé
    - ✅ Cochez "Add Python to PATH"
