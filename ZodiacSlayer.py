@@ -51,7 +51,7 @@ def display_instructions():
     st.markdown(
         """
         Ce programme permet le décodage du message du Zodiaque Z-340 directement depuis une image 
-        contenant les symboles du tuteur du Zodiaque. Chaque symbole sera automatiquement isolé puis décodé.
+        contenant les symboles du tueur du Zodiaque. Chaque symbole sera automatiquement isolé puis décodé.
         """
     )
     st.markdown(
