@@ -69,7 +69,7 @@ def display_instructions():
         ''',
         unsafe_allow_html=True,
     )
-    st.markdown(f"L'image peut être générée sur [dcode]({DCODE_URL}) ou sur ")
+    st.markdown(f"L'image peut être générée sur [dcode]({DCODE_URL})")
 
 
 def get_symbol_number(filename: str) -> int:
