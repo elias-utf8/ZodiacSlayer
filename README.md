@@ -19,10 +19,10 @@
 Ce programme prend en charge des messages codés basés sur Z-340 de 17 colonnes, 20 lignes mais également 
 de 17 colonnes, 18 lignes. Il suffit de charger l'image sur l'interface et de suivre les étapes. 
 **Il est possible de faire tourner le projet en local ou d'aller directement sur [la page streamlit](https://zodiacslayer-cdd7bne9mvfgdsn2uk5gnr.streamlit.app/)**
-
+---
 ## Installation 
 ### Installer Python 
-Windows
+#### Windows
 1. **Téléchargement**
    - Visitez [python.org](https://www.python.org/downloads/)
    - Cliquez sur "Download Python X.X.X" (dernière version)
@@ -31,14 +31,13 @@ Windows
    - Lancez l'installateur téléchargé
    - ✅ Cochez "Add Python to PATH"
    - Cliquez sur "Install Now"
----
-Linux
+#### Linux
 ```sh
 sudo apt update
 sudo apt install python3
 ```
 > Même paquet pour dnf, pacman etc
-
+---
 ### Cloner le projet et ses dépendances 
 ```sh
 git clone https://github.com/elias-utf8/ZodiacSlayer.git
