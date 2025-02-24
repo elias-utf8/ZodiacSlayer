@@ -1,6 +1,6 @@
 <div align="center">
 
-  ![Logo](repo/logo.png)
+  ![Logo](assets/logo.png)
   <h1><b>Zodiac Slayer</b></h1>
   
   <p>

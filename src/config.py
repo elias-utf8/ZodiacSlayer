@@ -1,7 +1,3 @@
-"""
-Configuration et constantes pour le projet Zodiac Slayer
-"""
-
 # Répertoires des symboles
 SYMBOLS_DIR = "symboles_extraits"
 SYMBOLS_EXTRACTED_DIR = "symboles_z340"
