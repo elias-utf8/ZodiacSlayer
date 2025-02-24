@@ -18,7 +18,9 @@
 
 Ce programme prend en charge des messages codés basés sur Z-340 de 17 colonnes, 20 lignes mais également 
 de 17 colonnes, 18 lignes. Il suffit de charger l'image sur l'interface et de suivre les étapes. 
+
 **Il est possible de faire tourner le projet en local ou d'aller directement sur [la page streamlit](https://zodiacslayer-cdd7bne9mvfgdsn2uk5gnr.streamlit.app/)**
+
 ---
 ## Installation 
 ### Installer Python 
