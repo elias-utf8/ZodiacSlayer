@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Logo](assets/logo.png){: width="200" height="100" }
+<img src="assets/logo.png" width="200" height="100" alt="Logo">
   <h1><b>Zodiac Slayer</b></h1>
   ![Logo](assets/screenshot_1.png)
 
