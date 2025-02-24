@@ -42,15 +42,9 @@ def setup_page():
     st.title("Zodiac Slayer - Z340")
 
     st.markdown("""
-    <style>
-        .reportview-container {
-            margin-top: -2em;
-        }
-        #MainMenu {visibility: hidden;}
-        .stDeployButton {display:none;}
-        footer {visibility: hidden;}
-        #stDecoration {display:none;}
-    </style>
+        <footer style="position: fixed; bottom: 0; width: 100%; background-color: #f5f5f5; padding: 10px; text-align: center;">
+            &copy; 2024 Uzinagaz productions
+        </footer>
     """, unsafe_allow_html=True)
 
 def display_instructions():
@@ -210,7 +204,14 @@ def main():
                     st.text_area("Correspondance des symboles", decoded_mapping, height=200)
                     st.text_area("Message décodé", decoded_message, height=200)
                     st.session_state.extraction_done = False
+                    st.download_button(
+                        label="Télécharger",
+                        data=decoded_message,
+                        file_name="message_decoded.txt",
+                        mime="text/plain"
+                    )
                     st.success("Programme terminé, décodage réussi.")
+
 
 if __name__ == "__main__":
     main()
