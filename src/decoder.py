@@ -1,18 +1,6 @@
 from src.config import ORIGINAL_INDICES, ORIGINAL_INDICES2
 
 def formater_message(text: str) -> tuple[list[str], bool]:
-    """
-    Formate le texte des correspondances en le découpant en lignes de 17 caractères.
-    
-    Entrée:
-        text (str): Texte à formater
-        
-    Sortie:
-        tuple contenant:
-            - formatted_lines (list[str]): Liste des lignes formatées de 17 caractères
-            - original (bool): True si le texte fait plus de 306 caractères
-    """
-
     text = text.replace(" ", "")
     if len(text) != 306:
         print(f"La chaine fait {len(text)} caractères")
@@ -57,6 +45,7 @@ def zodiac_algorithm(text: str, original: bool = False) -> str:
             break
     
     final = sorted(final, key=lambda x: int(''.join(filter(str.isdigit, x))))
+    print(final)
     final = [s.lstrip('0123456789') for s in final]
     
     message = "".join(final)
